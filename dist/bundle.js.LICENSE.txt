@@ -4,8 +4,47 @@ object-assign
 @license MIT
 */
 
+/*! ./Logger */
+
+/*! ./createConsoleLogger */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*! tapable */
+
+/*! webpack/lib/logging/runtime.js */
+
+/*!********************************************!*\
+  !*** ./client-src/modules/logger/index.js ***!
+  \********************************************/
+
+/*!**********************************************!*\
+  !*** ./client-src/modules/logger/tapable.js ***!
+  \**********************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/Logger.js ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/runtime.js ***!
+  \*****************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/webpack/lib/logging/createConsoleLogger.js ***!
+  \*****************************************************************/
+
 /** @license React v0.19.1
  * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
