@@ -7,7 +7,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/dev-server',
-    './Main.jsx'
+    './main.jsx'
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -22,7 +22,7 @@ module.exports = {
     ]
   },
   module: {
-    rules: [
+    rules:[
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
@@ -40,10 +40,10 @@ module.exports = {
             loader: 'style-loader'
           },
           {
-            loader: 'css-loader',
-            options: {
-              modules: true
-            }
+             loader: 'css-loader',
+             options: {
+               modules: true
+             }
           }
         ]
       },
@@ -85,9 +85,7 @@ module.exports = {
   ],
   devServer: {
     historyApiFallback: true,
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
+    contentBase: './dist',
     hot: true,
     port: 8080,
     open: true
