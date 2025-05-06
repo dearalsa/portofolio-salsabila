@@ -7,7 +7,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/dev-server',
-    './main.jsx'
+    './Main.jsx'
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
