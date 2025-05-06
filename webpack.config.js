@@ -22,7 +22,7 @@ module.exports = {
     ]
   },
   module: {
-    rules:[
+    rules: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
@@ -40,10 +40,10 @@ module.exports = {
             loader: 'style-loader'
           },
           {
-             loader: 'css-loader',
-             options: {
-               modules: true
-             }
+            loader: 'css-loader',
+            options: {
+              modules: true
+            }
           }
         ]
       },
@@ -85,7 +85,9 @@ module.exports = {
   ],
   devServer: {
     historyApiFallback: true,
-    contentBase: './dist',
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
     hot: true,
     port: 8080,
     open: true
