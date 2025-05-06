@@ -7,7 +7,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/dev-server',
-    './main.jsx'
+    './Main.jsx'
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -85,7 +85,9 @@ module.exports = {
   ],
   devServer: {
     historyApiFallback: true,
-    contentBase: './dist',
+    static: {
+      directory: path.resolve(__dirname, 'dist')
+    },
     hot: true,
     port: 8080,
     open: true
