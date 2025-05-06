@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server --open",
-    "build": "npm install && npx webpack --mode production"
+    "build": "npx webpack --mode production"
+  },
+  "engines": {
+  "node": "16.x",
+  "npm": "7.x"
   },
   "license": "MIT",
   "devDependencies": {
