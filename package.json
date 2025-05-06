@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server --open",
-    "build": "webpack --mode production"
+    "build": "npx webpack --mode production"
   },
   "license": "MIT",
   "devDependencies": {
