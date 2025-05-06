@@ -6,8 +6,7 @@
     "build": "npx webpack --mode production"
   },
   "engines": {
-  "node": "16.x",
-  "npm": "7.x"
+    "node": "18.x"
   },
   "license": "MIT",
   "devDependencies": {
