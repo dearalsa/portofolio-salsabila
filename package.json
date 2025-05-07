@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server --open",
-    "build": "npx webpack --mode production"
+    "build": "webpack --mode production"
   },
   "engines": {
     "node": "18.x"
