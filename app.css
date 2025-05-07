@@ -743,17 +743,6 @@ body, #root {
   min-height: 500px;
 }
 
-:global(.footer) {
-  text-align: center;
-  padding: 10px;
-  background-color: #393c3d;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  font-family: "Outfit", sans-serif;
-}
-
 :global(.ucapanadmin) {
   justify-content: center;
   align-items: center;
@@ -996,4 +985,14 @@ body, #root {
   background-color: #395a7e;
 }
 
+:global(.footer) {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Object Sans';
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #00000000;
+}
 
